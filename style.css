@@ -1,0 +1,86 @@
+.bg {
+    background-color: aqua;
+}
+
+
+.opacity {
+    background-color: yellow;
+    opacity: 30%;
+}
+
+.image {
+    background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    color: antiquewhite;
+}
+
+p.dotted {
+    border-style: dotted;
+
+}
+
+p.dashed {
+    border-style: dashed;
+}
+
+p.solid {
+    border-style: solid;
+    border-radius: 8px;
+    border-color: red;
+    border-width: 5px;
+}
+
+p.double {
+    border-style: double;
+}
+
+p.groove {
+    border-style: groove;
+}
+
+p.ridge {
+    border-style: ridge;
+}
+
+p.inset {
+    border-style: inset;
+}
+
+p.outset {
+    border-style: outset;
+}
+
+p.none {
+    border-style: none;
+}
+
+p.hidden {
+    border-style: hidden;
+}
+
+p.mix {
+    border-style: dotted dashed solid double;
+}
+
+.navbar li{
+    /* display: inline; */
+    display: block;
+}
+
+.right{
+    background-color: green;
+    float: right;
+}
+
+.left{
+    background-color: red;
+    float: left;
+}
+
+.cssfonts{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 22px;
+    
+
+}
